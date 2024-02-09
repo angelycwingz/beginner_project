@@ -1,0 +1,16 @@
+{% extends "card.html" %}
+{% load static %}
+
+{% block img-link %}
+{% static 'racket-logo.png' %}
+{% endblock img-link %}
+
+{% block anime %}One Piece{% endblock anime%}
+
+{% block description %}
+the adventures of Monkey D. Luffy and his crew, where he explores the Grand Line.
+{% endblock description %}
+
+{% block language-link%}
+{% url 'one_piece' %}
+{% endblock language-link%}

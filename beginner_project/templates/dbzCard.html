@@ -1,0 +1,16 @@
+{% extends "card.html" %}
+{% load static %}
+
+{% block img-link %}
+{% static 'python-logo.png' %}
+{% endblock img-link %}
+
+{% block anime %}Dragon Ball Z{% endblock anime%}
+
+{% block description %}
+The adventures of Son Goku in his adult life as he and his companions defend the Earth.
+{% endblock description %}
+
+{% block language-link%}
+{% url 'dbz' %}
+{% endblock language-link%}

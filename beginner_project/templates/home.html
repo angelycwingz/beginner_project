@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Top 3 Anime in the world</h1>
+<p>This site provides a brief introduction about the most watched 3 anime. Each page includes a quick summary and rating about the anime. Click on an anime to know about it.</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">{% include "dbzCard.html" %}</div>
+    <div class="col-md-4">{% include "narutoCard.html" %}</div>
+    <div class="col-md-4">{% include "onepieceCard.html" %}</div>
+  </div> 
+</div>
+
+{% endblock content %}
